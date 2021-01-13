@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Count from './Count';
 import Input from './Input'
+import UseRefTest from './UseRefTest';
 
 function App() {
   return (
@@ -12,6 +13,8 @@ function App() {
       </header>
 
       <Count />
+
+      <UseRefTest />
     </div>
   );
 }
